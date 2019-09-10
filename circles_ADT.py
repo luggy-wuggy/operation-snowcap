@@ -65,7 +65,6 @@ def randRGB():
 	return (rgb, new_RGB)
 
 class SetCircles(object):
-
 	def __init__(self, world, y_position):
 		circle_select = random.randrange(1,4)
 		rgb = randRGB()
@@ -134,7 +133,6 @@ class SetCircles(object):
 				if platform_position == [148,600] and self.circle_2.position[0] == 200:
 					return 1
 				else:
-					print("Fail")
 					return 0
 
 			elif self.circle_position == 3:

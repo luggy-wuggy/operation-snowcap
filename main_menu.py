@@ -1,4 +1,4 @@
-from set_Circles import Platform, Button, randRGB, Circle, SetCircles, start_game, start_menu, end_screen
+from circles_ADT import start_game, start_menu, end_screen
 import pygame
 import random
 
